@@ -1,0 +1,20 @@
+05. Aggregate functions operate on values across rows to perform mathematical calculations such as sum, average, counting, 
+and minimum/maximum values, as well as some non-mathematical operations. 
+    
+Most common aggregate functions.  
+    AVG
+        Returns the average of non-NULL records. If all records inside a group are NULL, the function returns NULL.
+    COUNT 
+        Returns either the number of non-NULL records for the specified columns, or the total number of records.
+    MAX
+        Returns the maximum value for the records within ,<expr>. NULL values are ignored unless all the records are NULL, 
+        in which case a NULL value is returned.
+    MIN
+        Returns the minimum value for the records within <expr>. NULL values are ignored unless all the records are NULL, 
+        in which case a NULL value is returned.
+    SUM
+        Returns the sum of non-NULL records for <expr>. You can use the DISTINCT keyword to compute the sum of unique non-null values. 
+        If all records inside a group are NULL, the function returns NULL.
+
+
+https://docs.snowflake.com/en/sql-reference/functions-aggregation

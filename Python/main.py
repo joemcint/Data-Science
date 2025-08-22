@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import datetime, bday_messages
 
 today = datetime.date.today()
@@ -10,3 +11,6 @@ if my_next_birthday == today:
   print(bday_messages.random_message)
 else:
   print(f'My next birthday is {days_away.days} days away!')
+=======
+
+>>>>>>> bd792a231e8adfb711b0a348133a8690c27bcf48
